@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ConnectToMysqlDatabase
 {
-    class Adatbazis
+    class MySQLDatabase
     {
-        public MySQLDatabaseInterface kapcsolodas()
+        public MySQLDatabaseInterface getDatabaseInterface()
         {
             MySQLDatabaseInterface mdi = new MySQLDatabaseInterface();
             mdi.setErrorToUserInterface(true);
